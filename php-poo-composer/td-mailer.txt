@@ -1,0 +1,20 @@
+// 1 -> créer une appli pour afficher un formulaire 
+avec 3 champs
+-> Un input type text label = "email expéditeur"
+-> Un input type text label = "email destinataire"
+-> un textarea type textarea label = "votre message"
+Lorsqu'on valide le form, un mail est envoyé via swiftmailer 
+et sendgrid avec les données saisies dans le form.
+
+// 2 > Votre partie à coder
+- Créer un nouveau projet PHPStorm nommé "mailer"
+- Préparer composer pour charger swiftmailer et votre dossier src
+- Coder dans src une class nommée FormFactory qui va vous permettre de 
+générer le code HTML Du formulaire
+donc 2 méthodes:
+une pour génerer le code HTML d'un champ input type text
+une pour génerer le code HTML d'un champ input type textarea
+- à la racine de votre projet, créer un fichier du même genre que execute
+qui vous permettra d'instancier la class form factory et donc d'afficher 
+votre formulaire
+
